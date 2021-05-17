@@ -1,0 +1,135 @@
+#image1 {
+    height: 200px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 5px;
+    border-style: inset;
+    border-width: 10px;
+    margin-top: 30px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+background-image: linear-gradient(to right, green , orange , teal ,pink , violet , white);
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 2;
+    font-family: fantasy;
+
+}
+h2 {
+  font-size: 30px;
+    line-height: 1;
+    font-family: serif;
+    font-weight: 300;
+    
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.line {
+    height: 6px;
+    background-color: deeppink;
+    width: 100px;
+    text-align: center;
+    margin: 8px;
+    
+}
+p {
+    color: blue;
+    font-size: 20px;
+}
+.menu {
+    font-family: cursive;
+    color: red;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width : 100%;
+    top: 0px;
+    background: yellow;
+}
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.links:hover {
+    background : linear-gradient(orange 30%, pink 50%);
+    font-size: 25px;
+    text-decoration: underline;
+}
+a {
+text-decoration: none;
+color: red;
+text-shadow: 2px 2px green;
+}
+html {
+    scroll-behavior: smooth;
+}
+.article:hover {
+    color: red;
+    font-size: 20px;
+}
+#videos {
+background: linear-gradient (yellow 60% , orange 40%);
+}
+#writing {
+    background-color: linear-gradient (red , yellow , blue);
+}
+#writing a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color : blue !important;
+}
+#contacts {
+background-color: firebrick;
+}
+.contact a {
+ color: yellow;
+ text-shadow: none;
+    
+}
+.contact h3 {
+    display: inline;
+}
